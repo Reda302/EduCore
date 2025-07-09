@@ -1,0 +1,22 @@
+{
+  "name": "dashboard_ui",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@clerk/nextjs": "^6.24.0",
+    "@prisma/client": "^6.10.1",
+    "prisma": "^6.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "seed": "prisma db seed"
+  }
+}
